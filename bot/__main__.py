@@ -13,7 +13,7 @@ from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.telegram_helper.message_utils import *
 from .helper.ext_utils.bot_utils import get_readable_file_size, get_readable_time
 from .helper.telegram_helper.filters import CustomFilters
-from .modules import authorize, list, cancel_mirror, mirror_status, mirror, clone, watch, delete, speedtest
+from .modules import authorize, list, cancel_mirror, mirror_status, mirror, clone, watch, delete
 
 
 @run_async
@@ -85,7 +85,7 @@ def bot_help(update, context):
 
 /{BotCommands.WatchCommand} [youtube-dl supported link]: Mirror through youtube-dl 
 
-/{BotCommands.SpeedCommand}: Check Internet Speed of the Host
+
 
 /{BotCommands.TarWatchCommand} [youtube-dl supported link]: Mirror through youtube-dl and tar before uploading
 

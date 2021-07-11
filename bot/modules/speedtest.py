@@ -5,6 +5,7 @@ from bot.helper.telegram_helper.bot_commands import BotCommands
 from telegram import Update, ParseMode
 from telegram.ext import Filters, CommandHandler
 
+
 def speedtest(update, context):
     message = update.effective_message
     ed_msg = message.reply_text("Running Speed Test . . . ")

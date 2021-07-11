@@ -85,6 +85,8 @@ def bot_help(update, context):
 
 /{BotCommands.WatchCommand} [youtube-dl supported link]: Mirror through youtube-dl 
 
+/{BotCommands.SpeedCommand}: Check Internet Speed of the Host
+
 /{BotCommands.TarWatchCommand} [youtube-dl supported link]: Mirror through youtube-dl and tar before uploading
 
 /{BotCommands.CancelMirror} : Reply to the message by which the download was initiated and that download will be cancelled

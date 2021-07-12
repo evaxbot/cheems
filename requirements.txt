@@ -30,3 +30,4 @@ pybase64
 pyrogram
 python-dotenv
 feedparser
+

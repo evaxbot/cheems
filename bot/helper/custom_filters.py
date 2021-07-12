@@ -1,4 +1,3 @@
-from pyrogram import filters
 
 def callback_data(data):
     def func(flt, client, callback_query):

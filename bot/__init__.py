@@ -4,6 +4,11 @@ import threading
 import time
 
 from pyrogram import Client
+import random
+import string
+import psycopg2
+from psycopg2 import Error
+
 
 import aria2p
 import telegram.ext as tg

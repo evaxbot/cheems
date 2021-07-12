@@ -8,7 +8,7 @@ import time
 
 
 from telegram.ext import CommandHandler, run_async
-from bot import app, dispatcher, updater, botStartTime
+from bot import dispatcher, updater, botStartTime
 from bot.helper.ext_utils import fs_utils
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.telegram_helper.message_utils import *

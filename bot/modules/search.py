@@ -252,5 +252,5 @@ def searchhelp(update, context):
     update.effective_message.reply_photo(IMAGE_URL, help_string, parse_mode=ParseMode.HTML)
     
     
-SEARCHHELP_HANDLER = CommandHandler(BotCommands.TsHelpCommand, searchhelp, filters=CustomFilters.owner_filter, run_async=True)
+SEARCHHELP_HANDLER = CommandHandler(BotCommands.TsHelpCommand, searchhelp, filters=CustomFilters.owner_filter)
 dispatcher.add_handler(SEARCHHELP_HANDLER)

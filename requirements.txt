@@ -9,7 +9,10 @@ python-dotenv>=0.10
 tenacity>=6.0.0
 python-magic
 beautifulsoup4>=4.8.2,<4.8.10
-Pyrogram==0.18.0
+beautifulsoup4>=4.8.2,<4.8.10
+beautifulsoup4>=4.8.2,<4.8.10
+beautifulsoup4>=4.8.2,<4.8.10
+
 TgCrypto>=1.1.1,<1.1.10
 git+https://gitlab.com/magneto261290/youtube-dl
 lxml
@@ -24,10 +27,14 @@ js2py
 lk21
 lxml
 messages
-psutil
+pytz
 psycopg2-binary
 pybase64
-pyrogram
+Pyrogram>=0.16.0,<0.16.10
 python-dotenv
 feedparser
+
+
+
+
 

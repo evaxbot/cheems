@@ -7,12 +7,6 @@ from sys import executable
 import time
 
 
-from pyrogram import idle
-import pytz
-from telegram import ParseMode, BotCommand
-from bot.helper.telegram_helper import button_build
-
-
 from telegram.ext import CommandHandler, run_async
 from bot import app, dispatcher, updater, botStartTime
 from bot.helper.ext_utils import fs_utils
@@ -103,8 +97,6 @@ def bot_help(update, context):
 /{BotCommands.ListCommand} [search term]: Searches the search term in the Google drive, if found replies with the link
 
 /{BotCommands.StatsCommand}: Show Stats of the machine the bot is hosted on
-
-/tshelp: Get help for Torrent search module
 
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by owner of the bot)
 

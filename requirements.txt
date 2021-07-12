@@ -19,3 +19,4 @@ telegraph
 speedtest-cli
 feedparser
 aiohttp
+psycopg2-binary

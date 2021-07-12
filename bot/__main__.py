@@ -6,7 +6,7 @@ from os import execl, path, remove
 from sys import executable
 import time
 
-from pyrogram import idle
+
 from .helper.telegram_helper.filters import CustomFilters
 
 
@@ -143,4 +143,3 @@ def main():
 
 
 main()
-idle()

@@ -89,10 +89,6 @@ class TorrentSearch:
         self.source = source.rstrip('/')
         self.RESULT_STR = result_str
 
-        app.add_handler(MessageHandler(self.find, filters.command([command])))
-        app.add_handler(CallbackQueryHandler(self.previous, filters.regex(f"{self.command}_previous")))
-        app.add_handler(CallbackQueryHandler(self.delete, filters.regex(f"{self.command}_delete")))
-        app.add_handler(CallbackQueryHandler(self.next, filters.regex(f"{self.command}_next")))
         
     @staticmethod
     def format_magnet(string: str):

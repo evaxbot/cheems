@@ -6,6 +6,9 @@ from os import execl, path, remove
 from sys import executable
 import time
 
+from pyrogram import idle
+from .helper.telegram_helper.filters import CustomFilters
+
 
 from telegram.ext import CommandHandler, run_async
 from bot import dispatcher, updater, botStartTime
@@ -100,6 +103,8 @@ def bot_help(update, context):
 
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by owner of the bot)
 
+/tshelp: Get help for Torrent search module
+
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
 
 '''
@@ -138,3 +143,4 @@ def main():
 
 
 main()
+idle()

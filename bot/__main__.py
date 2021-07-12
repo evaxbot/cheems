@@ -6,14 +6,21 @@ from os import execl, path, remove
 from sys import executable
 import time
 
+
+from pyrogram import idle
+import pytz
+from telegram import ParseMode, BotCommand
+from bot.helper.telegram_helper import button_build
+
+
 from telegram.ext import CommandHandler, run_async
-from bot import dispatcher, updater, botStartTime
+from bot import app, dispatcher, updater, botStartTime
 from bot.helper.ext_utils import fs_utils
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.telegram_helper.message_utils import *
 from .helper.ext_utils.bot_utils import get_readable_file_size, get_readable_time
 from .helper.telegram_helper.filters import CustomFilters
-from .modules import authorize, list, cancel_mirror, mirror_status, mirror, clone, watch, delete, speedtest
+from .modules import authorize, list, cancel_mirror, mirror_status, mirror, clone, watch, delete, speedtest, search
 
 
 @run_async
@@ -97,7 +104,7 @@ def bot_help(update, context):
 
 /{BotCommands.StatsCommand}: Show Stats of the machine the bot is hosted on
 
-
+/tshelp: Get help for Torrent search module
 
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by owner of the bot)
 

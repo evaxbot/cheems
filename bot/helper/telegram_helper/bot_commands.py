@@ -12,7 +12,7 @@ class _BotCommands:
         self.AuthorizeCommand = 'auth'
         self.UnAuthorizeCommand = 'unauth'
         self.PingCommand = 'pingeva'
-        self.TsHelpCommand = 'tshelp'
+        
         self.RestartCommand = 'reboot'
         self.StatsCommand = 'statseva'
         self.HelpCommand = 'h'

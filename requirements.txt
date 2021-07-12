@@ -29,3 +29,4 @@ psycopg2-binary
 pybase64
 pyrogram
 python-dotenv
+feedparser

@@ -18,3 +18,4 @@ telegraph
 
 speedtest-cli
 feedparser
+aiohttp

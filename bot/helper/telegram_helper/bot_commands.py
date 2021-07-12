@@ -7,6 +7,7 @@ class _BotCommands:
         self.CancelMirror = 'caneva'
         self.CancelAllCommand = 'canall'
         self.ListCommand = 'listeva'
+        self.SpeedCommand = 'speedtesteva'
         self.StatusCommand = 'statuseva'
         self.AuthorizeCommand = 'auth'
         self.UnAuthorizeCommand = 'unauth'

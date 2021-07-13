@@ -14,3 +14,8 @@ TgCrypto>=1.1.1,<1.1.10
 git+https://gitlab.com/magneto261290/youtube-dl
 lxml
 telegraph
+
+
+speedtest-cli
+
+feedparser
